@@ -12,7 +12,7 @@ public abstract class vehiculos {
         protected double kilonmetros_recorrido;
         protected double cantidad_combustible_actual;
 
-        public abstract vehiculos(String marca, String placa, int numero_serie, double kilonmetros_recorrido, double cantidad_combustible_actual){
+        public vehiculos(String marca, String placa, int numero_serie, double kilonmetros_recorrido, double cantidad_combustible_actual){
                 
             this.marca = marca;
             this.placa = placa;
